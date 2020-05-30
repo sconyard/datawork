@@ -4,6 +4,7 @@
 $getFirstLine = $true
 $timestamp = Get-Date -Format yy-MM-dd-hh-mm
 
+#Specify path to the source and output directories.  This script will look in the source location and merge all found files to a single file in the output directory appending a timestamp to the file name
 get-childItem "path to source" | ForEach-Object {
     $filePath = $_
 
