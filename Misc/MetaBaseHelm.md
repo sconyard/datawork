@@ -24,7 +24,7 @@ By default, backend database (H2) is stored inside container, and will be lost a
 
 Create the metabase database on the backend database service
 
-Example deployment script, deploying metabase into a precreate namespace named metabase
+Example deployment script, deploying metabase into a pre-created namespace named metabase
 
 ``` bash
 helm install metabase -f metabase-config.yaml stable/metabase -n metabase
