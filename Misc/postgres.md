@@ -1,10 +1,10 @@
 # Postgres DB to hold extracted data
 
-There are approximatly 500,000 crimes reported every month across all regional police forces in the UK.  Whilst we can extract this public data using the [police public API](https://data.police.uk/), interrogating and querying this information from a CSV file is impractical.  It is for this reason I've create and am using a postgres DB
+There are approximately 500,000 crimes reported every month across all regional police forces in the UK.  Whilst we can extract this public data using the [police public API](https://data.police.uk/), interrogating and querying this information from a CSV file is impractical.  It is for this reason I've created and am using a postgres DB to hold this information.
 
 ## Postgres and Docker
 
-Postgress is available as a [Docker image](https://hub.docker.com/_/postgres)
+Postgres is available as a [Docker image](https://hub.docker.com/_/postgres)
 
 ``` bash
 docker pull postgres
